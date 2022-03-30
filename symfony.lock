@@ -31,6 +31,9 @@
     "doctrine/common": {
         "version": "3.2.2"
     },
+    "doctrine/data-fixtures": {
+        "version": "1.5.2"
+    },
     "doctrine/dbal": {
         "version": "3.3.4"
     },
@@ -88,17 +91,48 @@
     "doctrine/sql-formatter": {
         "version": "1.1.2"
     },
+    "fakerphp/faker": {
+        "version": "v1.19.0"
+    },
     "fig/link-util": {
         "version": "1.2.0"
     },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.7"
     },
+    "hautelook/alice-bundle": {
+        "version": "2.10",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "2.2",
+            "ref": "c84e4f2b9d7f436d7d52e8369230b393367607ec"
+        },
+        "files": [
+            "./config/packages/hautelook_alice.yaml",
+            "./fixtures/.gitignore"
+        ]
+    },
+    "justinrainbow/json-schema": {
+        "version": "5.2.11"
+    },
     "laminas/laminas-code": {
         "version": "4.5.1"
     },
     "myclabs/deep-copy": {
         "version": "1.11.0"
+    },
+    "nelmio/alice": {
+        "version": "3.10",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "42b52d2065dc3fde27912d502c18ca1926e35ae2"
+        },
+        "files": [
+            "./config/packages/nelmio_alice.yaml"
+        ]
     },
     "nelmio/cors-bundle": {
         "version": "2.2",
@@ -231,6 +265,9 @@
     "symfony/asset": {
         "version": "v6.0.3"
     },
+    "symfony/browser-kit": {
+        "version": "v6.0.3"
+    },
     "symfony/cache": {
         "version": "v6.0.6"
     },
@@ -252,6 +289,9 @@
             "./bin/console"
         ]
     },
+    "symfony/css-selector": {
+        "version": "v6.0.3"
+    },
     "symfony/dependency-injection": {
         "version": "v6.0.6"
     },
@@ -259,6 +299,9 @@
         "version": "v3.0.0"
     },
     "symfony/doctrine-bridge": {
+        "version": "v6.0.6"
+    },
+    "symfony/dom-crawler": {
         "version": "v6.0.6"
     },
     "symfony/dotenv": {
@@ -313,6 +356,12 @@
             "./src/Kernel.php"
         ]
     },
+    "symfony/http-client": {
+        "version": "v6.0.5"
+    },
+    "symfony/http-client-contracts": {
+        "version": "v3.0.0"
+    },
     "symfony/http-foundation": {
         "version": "v6.0.6"
     },
@@ -330,6 +379,21 @@
     },
     "symfony/password-hasher": {
         "version": "v6.0.3"
+    },
+    "symfony/phpunit-bridge": {
+        "version": "6.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.3",
+            "ref": "97cb3dc7b0f39c7cfc4b7553504c9d7b7795de96"
+        },
+        "files": [
+            "./.env.test",
+            "./bin/phpunit",
+            "./phpunit.xml.dist",
+            "./tests/bootstrap.php"
+        ]
     },
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.25.0"
@@ -443,6 +507,15 @@
     },
     "symfony/yaml": {
         "version": "v6.0.3"
+    },
+    "theofidry/alice-data-fixtures": {
+        "version": "1.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "fe5a50faf580eb58f08ada2abe8afbd2d4941e05"
+        }
     },
     "theseer/tokenizer": {
         "version": "1.2.1"
